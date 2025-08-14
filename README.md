@@ -1,50 +1,87 @@
-# 🌍 World Atlas
+# 🌍 World Atlas - MERN Stack Project
 
-**World Atlas** is a full-stack web application that provides detailed information about every country across the globe. It offers an interactive and user-friendly interface for exploring country data, sending messages, and providing feedback.  
+The **World Atlas** is an interactive full-stack web application that provides detailed information about **every country in the world**. It allows users to search, sort, and explore countries, as well as submit messages and feedback, which can be managed via an **admin panel**.
 
 ---
 
 ## ✨ Features
 
-### 🔍 Search & Sort
-- **Search** countries by name  
-- **Sort** countries alphabetically for easy navigation  
+### 🔍 Country Information
+- 📜 View details of all countries worldwide (name, capital, population, region, etc.)  
+- 🔎 **Search** countries by name  
+- ↕ **Sort** countries alphabetically  
 
-### 📝 User Messages
-- Users can submit messages through a form  
-- **Admin Panel** displays all messages  
-- Admin can **view, update, or delete** messages  
+### 📨 Message Management
+- 🖊 Users can send messages via a form  
+- 📋 Admin can view all submitted messages  
+- ✏️ Update or ❌ delete messages from the admin panel  
 
-### ⭐ Feedback System
-- Users can provide **feedback** through a dedicated form  
-- Feedback is **stored and viewable** by the admin  
-
-### 📊 Admin Dashboard
-- Manage all user messages and feedback efficiently  
-- Update or delete entries as needed  
+### 💬 Feedback System
+- 📝 Feedback form for user opinions & suggestions  
+- 📊 Admin can view and manage all feedback entries  
 
 ### 📱 Responsive Design
-- Fully responsive UI for **desktop** and **mobile devices**  
+- Works smoothly on **desktop, tablet, and mobile devices**  
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **Frontend:** React.js, Axios, React Router DOM  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Authentication & Security:** JWT, bcrypt  
-- **Validation:** Zod (for backend data validation)  
+- **Frontend:** ⚛ React.js, Axios  
+- **Backend:** 🟢 Node.js, Express.js  
+- **Database:** 🍃 MongoDB (Mongoose ODM)  
+- **Authentication:** 🔐 JWT, bcrypt (for admin login)  
+- **Validation:** ✅ Zod / Joi  
+
+---
+
+## 🧰 Tools & Practices
+
+- 📦 **dotenv** – Manage environment variables  
+- 🔄 **CORS** – Secure API communication  
+- 📜 **Morgan** – API request logging  
+- 📏 **REST API Standards** – Clean, scalable design  
+- ⚠ **Centralized Error Handling** – Consistent error responses  
+
+---
+## 📂 Folder Structure
+
+World-Atlas/
+│-- frontend/ # React app
+│-- backend/ # Node.js API
+│-- controllers/ # Business logic
+│-- models/ # MongoDB schemas
+│-- routes/ # API routes
+│-- middlewares/ # Auth & validation middleware
+│-- utils/ # Helper functions
+│-- server.js # Backend entry point
+
 
 ---
 
-## ⚡ Additional Tools & Libraries
+## 🚀 Installation & Usage
 
-- **React Icons** – For visually appealing icons  
-- **Tailwind CSS** – For styling and responsive design  
-- **Axios** – For API requests  
-- **React Router DOM** – For dynamic routing  
-- **Parallax Tilt** – For interactive UI elements  
+```bash
+# Clone the repo
+git clone https://github.com/username/World-Atlas.git
 
----
+# Navigate to project
+cd World-Atlas
+
+# Install dependencies for backend
+cd backend
+npm install
+
+# Install dependencies for frontend
+cd ../frontend
+npm install
+
+# Start backend server
+npm run dev  # inside backend folder
+
+# Start frontend server
+npm start    # inside frontend folder
+
+
+## 📂 Folder Structure
 
