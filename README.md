@@ -63,8 +63,7 @@ World-Atlas/
 
 ```bash
 # Clone the repo
-git clone https://github.com/username/World-Atlas.git
-
+https://github.com/Alok-jena-tech/worldAtlas.git
 # Navigate to project
 cd World-Atlas
 
@@ -81,6 +80,7 @@ npm run dev  # inside backend folder
 
 # Start frontend server
 npm start    # inside frontend folder
+
 
 
 
