@@ -31,7 +31,7 @@ The **World Atlas** is an interactive full-stack web application that provides d
 - **Backend:** 🟢 Node.js, Express.js  
 - **Database:** 🍃 MongoDB (Mongoose ODM)  
 - **Authentication:** 🔐 JWT, bcrypt (for admin login)  
-- **Validation:** ✅ Zod / Joi  
+- **Validation:** ✅ Zod 
 
 ---
 
@@ -83,5 +83,5 @@ npm run dev  # inside backend folder
 npm start    # inside frontend folder
 
 
-## 📂 Folder Structure
+
 
